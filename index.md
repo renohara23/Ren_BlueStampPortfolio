@@ -46,7 +46,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # Starter Project
 <iframe width="560" height="315" src="https://www.youtube.com/embed/86wupSU3Qbg?si=v7565gstihsWf3Gy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-For my first milestone, I created my starter project, which was the retro arcade console. I built the console by soldering all the pieces together. Initially, I was a having a difficult time, because I've never soldered before. However, over time I started to get confortable soldering, and was able to succesfullly build it. The game console is able to play many different games, and is super enjoyable. 
+For my starter project, I chose to create the retro arcade console. I wanted to create the console because I love playing video games, and I thought it would be intriguing to create and assemble one on my own. Initially, I had a hard time creating my console because it involved a lot of soldering, which I have not done before. However, over time I started to get more comfortable with the tools, and was proud of myself when I finally finished it. 
 
 
 # Schematics 
