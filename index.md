@@ -10,10 +10,10 @@ Have you ever wished to know if a person is tellung the truth or not, well now y
 
 
 
-```HTML 
+<!--```HTML 
 <!--- This is an HTML comment in Markdown -->
 <!--- Anything between these symbols will not render on the published site -->
-```
+```-->
 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
