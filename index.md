@@ -21,7 +21,7 @@ Have you ever wished to know if a person is tellung the truth or not, well now y
 | Ren O | Homestead High School | Computer Engineering | Incoming Senior
 
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
+<!--**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**-->
 
 
 ![Headstone Image](RenO.png)
