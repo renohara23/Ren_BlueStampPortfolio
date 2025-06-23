@@ -1,5 +1,8 @@
 # Lie/Nervousness Detector
-Have you ever wished to know if a person is tellung the truth or not, well now you can with the lie/nervousness detector that I was able to build. This device uses a GSR sensor which is able to detect the activation of sweat glands. This data helps us identify if the person is lying or not. Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! For my project, I decided to make a lie/nervousness detector. The lie/nervousness detector uses 
+Have you ever wished to know if a person is tellung the truth or not, well now you can with the lie/nervousness detector that I was able to build. This device uses a GSR sensor which is able to detect the activation of sweat glands that helps us identify if the person is lying or not. 
+<!--
+Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! For my project, I decided to make a lie/nervousness detector. The lie/nervousness detector uses 
+-->
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
