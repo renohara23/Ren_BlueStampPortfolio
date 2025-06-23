@@ -64,6 +64,9 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # First Milestone
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4ujochRYdPQ?si=bf9kOd2_Q00TkyAy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+My first milestone for my lie/nervousness detector is to code the GSR sensor so that it is able to take in the information from the Arduino so that it can find the avarege of 500 readings and see if the average will go over the threshold. I also coded it so that once it goes over the threshold I inputted, a buzzer will beep. Some challenges I had with completing my first milestone was the wiring and the coding that I had to do. As there were many times where the code will produce an error, and I would have to go back in the code to find what the problem was. 
 
 # Starter Project
 <iframe width="560" height="315" src="https://www.youtube.com/embed/86wupSU3Qbg?si=v7565gstihsWf3Gy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
