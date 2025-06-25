@@ -79,7 +79,7 @@ For my starter project, I chose to create the retro arcade console. I wanted to 
 
 <!--Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
 
-(schematics.png)
+<img src= "schematics-_WNfuLqZO8t.png" width="450" height="600">
 
 
 # Code
