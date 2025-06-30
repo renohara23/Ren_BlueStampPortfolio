@@ -1,5 +1,5 @@
 # Lie/Nervousness Detector
-Have you ever wished to know if a person is tellung the truth or not, well now you can with the lie/nervousness detector that I was able to build through the Arduino microcontroller. This device uses a GSR sensor which is able to detect the activation of sweat glands that helps us identify if the person is lying or not. Some do
+At BlueStamp I decided to create a lie/nervousness detector. This device uses GSR values, that stands for galvanic skin response, which is a measure of the electrical skin conductivity individual's skin. With the help of my device you are able to decipher the truth by seeing if there is a rise in the GSR values.
 
 
 <!--Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! For my project, I decided to make a lie/nervousness detector. The lie/nervousness detector uses -->
