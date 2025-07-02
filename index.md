@@ -85,6 +85,8 @@ I also coded it so that once went over the threshold I inputted, a buzzer will b
 
 For my starter project, I chose to create the retro arcade console. I wanted to create the console because I love playing video games, and I thought it would be intriguing to create and assemble one on my own. Initially, I had a hard time creating my console because it involved a lot of soldering, which I have not done before. Since I would either put too much solder or too little solder when putting the components together. However, as I asked more questions and watched more Youtube videos, I got comfortable with soldering, and I was succesfully able to complete my retro arcade console. 
 
+## Challenges
+
 
 # Schematics 
 
