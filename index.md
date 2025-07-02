@@ -58,11 +58,10 @@ For your final milestone, explain the outcome of your project. Key details to in
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pRRHKJGRSHw?si=lcP-HiqLfxEEzcii" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Summary
-For milestone two, I was able to program a loop that will calculate the sensor value from the GSR sensor. The loop makes the Arduino find the sum of 500 readings from the GSR sensor. After the loop is finished it divides the sum of the sensor values by 500 to find the avergae. Finding the average of the sensor value is important in contributing to my final goal because it helps determine if an individual is lying or not. Using single values from the GSR sensor is not a viable option compared to the average because it is common for people's GSR to fluctuate, due to factors such as nervousness or environment. What has been surprising about the project so far is how important it is to be creative, and not follow the instructions step by step. A previous challenge I faced that I overcame was that orginally I used the sensor value from the GSR sensor to determine if someone was lying. However, I learned that I had to taken in account of aspects like nervousness and humidity to accurately determine if a person is lying or not. 
-What needs to be completeed before my final milestone is to use my classmates to help determine the correct threshold to use. the threshold value is important to my final goal because using 6hat value, if the avergae of the GSR sensor exceeds the threshold, it will help figure out if a person is lying. 
+For milestone two, I was able to program a loop that will calculate the sensor value from the GSR sensor. The loop makes the Arduino find the sum of 500 readings from the GSR sensor. After the loop is finished it divides the sum of the sensor values by 500 to find the avergae. Finding the average of the sensor value is important in contributing to my final goal because it helps determine if an individual is lying or not. Using single values from the GSR sensor is not a viable option compared to the average because it is common for people's GSR to fluctuate, due to factors such as nervousness or environment. What has been surprising about the project so far is how important it is to be creative, and not follow the instructions step by step. A previous challenge I faced that I overcame was that orginally I used the sensor value from the GSR sensor to determine if someone was lying. However, I learned that I had to taken in account of aspects like nervousness and humidity to accurately determine if a person is lying or not. What needs to be completeed before my final milestone is to use my classmates to help determine the correct threshold to use. the threshold value is important to my final goal because using 6hat value, if the avergae of the GSR sensor exceeds the threshold, it will help figure out if a person is lying. 
 
 ## Challenges
-
+A challenge I had in completing milestone two is the coding involved to figure the correct reading. In the beginnning, I had a difficult time understanding how to take in the readings of averages, since I've never coded on Arduino before. However through constant trial and error and help from my instrcutors I was able to figure out and code a function on Arduino that will take 500 readings and use the average to correctly determine if a person is lying or not. 
 
 
 <!--For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
@@ -77,11 +76,10 @@ What needs to be completeed before my final milestone is to use my classmates to
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4ujochRYdPQ?si=bf9kOd2_Q00TkyAy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Summary
-My first milestone for my lie/nervousness detector was to program on Arduino IDE, to make my GSR sensor work. I was able to achieve this goal by 
-I also coded it so that once went over the threshold I inputted, a buzzer will beep. Some challenges I had with completing my first milestone was wiring the buzzer and the coding that I had to do. The reason is because there were many times where the code will produce an error, and I would have to go back in the code to find what the problem was. 
+My first milestone for my lie/nervousness detector was to program on Arduino IDE to make my GSR sensor work. I was able to achieve this goal by making my GSR sensor as a constant integer to pin labeled as A2. Then I made an integer called sensorValue, which stores the analog readings from the GSR sensor. I also coded it so that there would be a buzzer plugged in to pin #13, and it would beep when the GSR values would go over the threshold values that I set up. 
 
 ## Challenges
-
+Some challenges I had with completing my first milestone was wiring the GSR sensor and the buzzer to the Arduino. The reason is because there was a schematic picture on wiring the GSR sensor to the Arduino, but I had a difficult time interpreting it since I've never done wiring before coming to BlueStamp. Through the help of Youtiube videos and the instructors, I finally understood what the schematic meant, and was able to finish the wiring of my GSR sensor to the Arduino.
 
 # Starter Project
 <iframe width="560" height="315" src="https://www.youtube.com/embed/86wupSU3Qbg?si=v7565gstihsWf3Gy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -97,6 +95,7 @@ For my starter project, I chose to create the retro arcade console. I wanted to 
 <!--Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
 
 <img src= "schematics-_WNfuLqZO8t.png" width="450" height="600">
+Retro Arcade Console
 
 [Hackster.io](https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95fz0)
 
