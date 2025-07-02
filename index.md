@@ -42,6 +42,8 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE-->
 
+## Summary
+
 ## Challenges
 
 
@@ -55,6 +57,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pRRHKJGRSHw?si=lcP-HiqLfxEEzcii" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Summary
 For milestone two, I was able to program a loop that will calculate the sensor value from the GSR sensor. The loop makes the Arduino find the sum of 500 readings from the GSR sensor. After the loop is finished it divides the sum of the sensor values by 500 to find the avergae. Finding the average of the sensor value is important in contributing to my final goal because it helps determine if an individual is lying or not. Using single values from the GSR sensor is not a viable option compared to the average because it is common for people's GSR to fluctuate, due to factors such as nervousness or environment. What has been surprising about the project so far is how important it is to be creative, and not follow the instructions step by step. A previous challenge I faced that I overcame was that orginally I used the sensor value from the GSR sensor to determine if someone was lying. However, I learned that I had to taken in account of aspects like nervousness and humidity to accurately determine if a person is lying or not. 
 What needs to be completeed before my final milestone is to use my classmates to help determine the correct threshold to use. the threshold value is important to my final goal because using 6hat value, if the avergae of the GSR sensor exceeds the threshold, it will help figure out if a person is lying. 
 
@@ -73,6 +76,7 @@ What needs to be completeed before my final milestone is to use my classmates to
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4ujochRYdPQ?si=bf9kOd2_Q00TkyAy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Summary
 My first milestone for my lie/nervousness detector was to program on Arduino IDE, to make my GSR sensor work. I was able to achieve this goal by 
 I also coded it so that once went over the threshold I inputted, a buzzer will beep. Some challenges I had with completing my first milestone was wiring the buzzer and the coding that I had to do. The reason is because there were many times where the code will produce an error, and I would have to go back in the code to find what the problem was. 
 
@@ -82,7 +86,7 @@ I also coded it so that once went over the threshold I inputted, a buzzer will b
 # Starter Project
 <iframe width="560" height="315" src="https://www.youtube.com/embed/86wupSU3Qbg?si=v7565gstihsWf3Gy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
+## Summary
 For my starter project, I chose to create the retro arcade console. I wanted to create the console because I love playing video games, and I thought it would be intriguing to create and assemble one on my own. Initially, I had a hard time creating my console because it involved a lot of soldering, which I have not done before. Since I would either put too much solder or too little solder when putting the components together. However, as I asked more questions and watched more Youtube videos, I got comfortable with soldering, and I was succesfully able to complete my retro arcade console. 
 
 ## Challenges
