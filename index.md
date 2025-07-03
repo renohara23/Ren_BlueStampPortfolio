@@ -85,10 +85,9 @@ Some challenges I had with completing my first milestone was wiring the GSR sens
 <iframe width="560" height="315" src="https://www.youtube.com/embed/86wupSU3Qbg?si=v7565gstihsWf3Gy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Summary
-For my starter project, I chose to create the retro arcade console. I wanted to create the console because I love playing video games, and I thought it would be intriguing to create and assemble one on my own. Initially, I had a hard time creating my console because it involved a lot of soldering, which I have not done before. Since I would either put too much solder or too little solder when putting the components together. However, as I asked more questions and watched more Youtube videos, I got comfortable with soldering, and I was succesfully able to complete my retro arcade console. 
-
+For my starter project, I chose to create the retro arcade console. I wanted to create the console because I love playing video games, and I thought it would be intriguing to create and assemble one on my own. The retro arcade console has many types of games such as snake and tetris. Additionally, the console is able to be powered through a plug or batteries. 
 ## Challenges
-
+A challenge I had in completeing my starter project was the soldering. Before coming to BlueStamp I've never done soldering before, so initially I had a very difficult time soldering the components together. For example, I would either over solder or undersolder the wires to the circuit board. However, over time I was able to overcome this challenge by getting advice from my instructors as well as from Youtube. I learned that with soldering, you should think less is more. Once I understood that, I had a easier time soldering the pieces together for the retro arcade console. 
 
 # Schematics 
 
