@@ -99,7 +99,12 @@ Retro Arcade Console
 
 [Hackster.io](https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95fz0)
 
-<img src= "schematics-_schematic.png" width="450" height"600">
+
+
+<img src= "schematics-_schematic.png" width="450" height="600">
+Lie/Nervousness Detector
+[electronicsforu.com](https://www.electronicsforu.com/electronics-projects/gsr-based-lie-detector-device)
+
 
 
 # Code
