@@ -103,6 +103,7 @@ Retro Arcade Console
 
 <img src= "schematics-_schematic.png" width="450" height="600">
 Lie/Nervousness Detector
+
 [electronicsforu.com](https://www.electronicsforu.com/electronics-projects/gsr-based-lie-detector-device)
 
 
