@@ -138,6 +138,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Buzzer/Led Vibration | Vibrates to signal a lie | $6.99 | [Link](https://www.amazon.com/Passive-Buzzer-Piezoelectric-Arduino-Raspberry/dp/B0DHGP95K4/ref=asc_df_B0DHGP95K4?mcid=d16130fa11d532098351253b3157a0dc&hvocijid=1103315638036278550-B0DHGP95K4-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=1103315638036278550&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198079&hvtargid=pla-2281435177578&th=1) |
 | LCD Display | Displays text that says if you are telling the truth or not | $9.99 | [Link](https://www.amazon.com/SunFounder-Serial-Module-Display-Arduino/dp/B019K5X53O?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&smid=ADHH624DX2Q66&gQT=1&th=1) |
 | Potentiometer | Allows the text on the LCD dispaly, to be displayed | $1.25 | [Link](https://www.digikey.com/en/products/detail/sparkfun-electronics/09806/7319606?gQT=1) |
+| Button | Starts the calibration process in determing an individual's GSR threshold | $5.39 | [Link](https://www.amazon.com/DAOKI-Miniature-Momentary-Tactile-Quality/dp/B01CGMP9GY/ref=sr_1_1?dib=eyJ2IjoiMSJ9.K8ztKL3l65wCk2uoh4BBBJMY4zTNCQsNILMKyPbG4fdSBQ6lrhluuRno0AbSmEsg-W4MgTNj2MTYJtJNaC0t12kEjFWvHzo8T3YOxx7RrYP6InHrMnkEqEQeFpWXmg-Ib9w2Z43EA5JsxTx7LuJSzskko10kbMVvdCw-8PbhPcj1DJyAK1k-A_xG81icmvnVtSU7vNtPZN1awk7zgjBemBZgGyiTC86YczXgqqpHCWw.EbgecL-NAfoDP5aDUc8DtkuMFuusX_Tbky2qJvPgFwM&dib_tag=se&keywords=arduino%2Bbuttons&qid=1751582504&sr=8-1&th=1)|
 
 <!--
 # Other Resources/Examples
