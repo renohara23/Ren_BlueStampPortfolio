@@ -35,13 +35,13 @@ At BlueStamp I decided to create a lie/nervousness detector. This device uses GS
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-For milestone three I was able to find a threshold that is able to adjust to peoples' different GSR readings. Through this process of completing this task I learned what a boolean function was, and used this function to create a calibration phase, as well as a precalibratuion phase. The precalibration phase is important to my project because 
 
-For your final milestone, explain the outcome of your project. Key details to include are:
+
+<!--For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+- What you hope to learn in the future after everything you've learned at BSE-->
 
 ## Summary
 For milestone three I was able to find a threshold that is able to adjust to peoples' different GSR readings. Through this process of completing this task, I learned what a boolean function was, and used this function to create a calibration phase, as well as a precalibration phase. The precalibration phase is important to my project because when the GSR readings begins, there are inconsistent values, as the GSR sensor is stabilizing the value of the person's GSR readings. 
