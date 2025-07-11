@@ -134,7 +134,7 @@ Retro Arcade Console
 
 
 
-# Code
+# Cod
 ![Headstone Image](sketch_jul7a.ino)
 
 
