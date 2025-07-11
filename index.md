@@ -24,15 +24,13 @@ At BlueStamp I decided to create a lie/nervousness detector. This device uses GS
 <!--**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**-->
 
 
-<p float="left">
-  <img src="RenO.png" width="200" />
-  <img src="IMG_5542.png" width="200" />
-</p>
+![Headstone Image](IMG_5542.png)
 
 
+## Headshot Image
 ![Headstone Image](RenO.png)
 
-![Headstone Image](IMG_5542.png)
+
 
   
 # Final Milestone
