@@ -18,7 +18,7 @@ At BlueStamp I decided to create a lie/nervousness detector. This device uses GS
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Ren O | Homestead High School | Computer Engineering | Incoming Senior
+| Ren O | Homestead High School | Civil Engineering | Incoming Senior
 
 
 <!--**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**-->
