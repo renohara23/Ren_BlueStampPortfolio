@@ -25,6 +25,9 @@ At BlueStamp I decided to create a lie/nervousness detector. This device uses GS
 
 
 ![Headstone Image](RenO.png)
+
+![Headstone Image](IMG_5542.png)
+
   
 # Final Milestone
 
