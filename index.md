@@ -135,8 +135,9 @@ Retro Arcade Console
 
 
 # Code
-#include <LiquidCrystal.h>
-#include <PulseSensorPlayground.h>
+<pre><code class="language-cpp">
+#include &lt;LiquidCrystal.h&gt;
+#include &lt;PulseSensorPlayground.h&gt;
 const int BUZZER = 5;
 const int GSR = A2;
 const int LED = 4;
@@ -158,7 +159,7 @@ long sumBPM = 0;
 int count = 0;
 float alphaFast = 0.1;
 float alphaSlow = 0.05;
-int sensitivity = 1;  
+int sensitivity = 1;
 unsigned long buttonPressTime = 0;
 const unsigned long preCalDelay = 15000;
 const unsigned long calDuration = 20000;
@@ -183,7 +184,6 @@ void loop() {
   sensorValue = analogRead(GSR);
   bpm = pulseSensor.getBeatsPerMinute();
 
-  
   if (!baselineSet && !collecting && digitalRead(BUTTON) == LOW) {
     collecting = true;
     buttonPressTime = millis();
@@ -232,11 +232,9 @@ void loop() {
     lcd.clear();
   }
   if (baselineSet) {
-    
     ema = alphaFast * sensorValue + (1 - alphaFast) * ema;
     baselineEMA = alphaSlow * ema + (1 - alphaSlow) * baselineEMA;
 
-    
     if (digitalRead(BUTTON) == LOW && !questionAsked) {
       baselineEMA = 0.9 * baselineEMA + 0.1 * ema;
       baselineBPM = 0.9 * baselineBPM + 0.1 * bpm;
@@ -254,13 +252,11 @@ void loop() {
       questionAsked = false;
     }
 
-    
     float gsrScore = (ema - baselineEMA) / sensitivity;
     float bpmScore = (bpm - baselineBPM) / sensitivity;
     float totalScore = max(0, gsrScore) + max(0, bpmScore);  // Ignore negatives
     bool lieDetected = totalScore > 2.0;
 
-    
     lcd.setCursor(0, 0);
     lcd.print("GSR:");
     lcd.print((int)ema);
@@ -281,7 +277,6 @@ void loop() {
       digitalWrite(LED, LOW);
     }
 
-    
     Serial.print("EMA:");
     Serial.print(ema);
     Serial.print(" BPM:");
@@ -291,6 +286,9 @@ void loop() {
     delay(10);
   }
 }
+</code></pre>
+
+
 
 
 <!--Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
