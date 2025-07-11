@@ -113,27 +113,6 @@ Lie/Nervousness Detector
 
 [electronicsforu.com](https://www.electronicsforu.com/electronics-projects/gsr-based-lie-detector-device)
 
-
-# Starter Project
-<iframe width="560" height="315" src="https://www.youtube.com/embed/86wupSU3Qbg?si=v7565gstihsWf3Gy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-## Summary
-For my starter project, I chose to create the retro arcade console. I wanted to create the retro arcade console because I love playing video games, and I thought it would be intriguing to create and assemble one on my own. The retro arcade console has many types of games such as snake and tetris. Additionally, the console is able to be powered through a plug or batteries. Creating the retro arcade console took me around two days to make. Once I completed the project and saw that it was working, I felt very proud of myself because before entering BlueStamp I didn't think I would be able to manufacture the console properly, as it looked very complicated to do.
-## Challenges
-A challenge I had in completeing my starter project was the soldering. Before coming to BlueStamp I've never done soldering, so initially I had a difficult time soldering the components together. For example, I would either over solder or undersolder the wires to the circuit board, short circuiting the pieces, making the retro arcade console unusable. Also, I remember on the first day I soldered the helping hands together. I was able to overcome this challenge by getting advice from my instructors as well as from Youtube. These resources told me that undersoldering is better than oversoldering. Once I understood that, I had a easier time soldering the pieces together to create the retro arcade console. Another challenge I had in completing my starter project was understanding the manuel. Since I remember there were many times during this process where I wasn't able to comprehend what the instructions were telling me to do. I overcame this challenege by asking my peers and my instructors, who helped simplify the language to me. 
-
-# Starter Project Schematic
-
-<!--Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
-
-<img src= "schematics-_WNfuLqZO8t.png" width="450" height="600">
-Retro Arcade Console
-
-[Hackster.io](https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95fz0)
-
-
-
-
 # Code
 <pre><code class="language-cpp">
 #include &lt;LiquidCrystal.h&gt;
@@ -287,6 +266,24 @@ void loop() {
   }
 }
 </code></pre>
+
+
+# Starter Project
+<iframe width="560" height="315" src="https://www.youtube.com/embed/86wupSU3Qbg?si=v7565gstihsWf3Gy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Summary
+For my starter project, I chose to create the retro arcade console. I wanted to create the retro arcade console because I love playing video games, and I thought it would be intriguing to create and assemble one on my own. The retro arcade console has many types of games such as snake and tetris. Additionally, the console is able to be powered through a plug or batteries. Creating the retro arcade console took me around two days to make. Once I completed the project and saw that it was working, I felt very proud of myself because before entering BlueStamp I didn't think I would be able to manufacture the console properly, as it looked very complicated to do.
+## Challenges
+A challenge I had in completeing my starter project was the soldering. Before coming to BlueStamp I've never done soldering, so initially I had a difficult time soldering the components together. For example, I would either over solder or undersolder the wires to the circuit board, short circuiting the pieces, making the retro arcade console unusable. Also, I remember on the first day I soldered the helping hands together. I was able to overcome this challenge by getting advice from my instructors as well as from Youtube. These resources told me that undersoldering is better than oversoldering. Once I understood that, I had a easier time soldering the pieces together to create the retro arcade console. Another challenge I had in completing my starter project was understanding the manuel. Since I remember there were many times during this process where I wasn't able to comprehend what the instructions were telling me to do. I overcame this challenege by asking my peers and my instructors, who helped simplify the language to me. 
+
+# Starter Project Schematic
+
+<!--Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
+
+<img src= "schematics-_WNfuLqZO8t.png" width="450" height="600">
+Retro Arcade Console
+
+[Hackster.io](https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95fz0)
 
 
 
