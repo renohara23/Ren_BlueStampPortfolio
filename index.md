@@ -282,6 +282,9 @@ void loop() {
 # Starter Project
 <iframe width="560" height="315" src="https://www.youtube.com/embed/86wupSU3Qbg?si=v7565gstihsWf3Gy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+![Headstone Image](IMG_5543.png)
+
+
 ## Summary
 For my starter project, I chose to create the retro arcade console. I wanted to create the retro arcade console because I love playing video games, and I thought it would be intriguing to create and assemble one on my own. The retro arcade console has many types of games such as snake and tetris. Additionally, the console is able to be powered through a plug or batteries. Creating the retro arcade console took me around two days to make. Once I completed the project and saw that it was working, I felt very proud of myself because before entering BlueStamp I didn't think I would be able to manufacture the console properly, as it looked very complicated to do.
 ## Challenges
