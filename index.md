@@ -284,7 +284,8 @@ void loop() {
 
 
 
-<img src="IMG_5553.png" alt="example" width="400" height="250">
+![Headstone Image](IMG_5553.png)
+
 
 
 
