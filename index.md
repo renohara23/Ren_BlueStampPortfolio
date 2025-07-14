@@ -284,7 +284,7 @@ void loop() {
 
 
 
-<img src="IMG 5553.png" alt="example" width="400" height="250">
+<img src="IMG_5553.png" alt="example" width="400" height="250">
 
 
 
