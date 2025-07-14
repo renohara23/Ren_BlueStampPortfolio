@@ -32,7 +32,15 @@ At BlueStamp I decided to create a lie/nervousness detector. This device uses GS
 
 
 
-  
+
+
+# Milestones
+
+## Summary
+Before starting my project, modifications I wanted to add to my lie/nervousness detector were attaching a heart rate monitor to accurately determine if someone is lying, adding a display on a screen to say if the person is telling the truth, and changing the code so that it can take in account to different GSR levels when you ask multiple questions. I was able to achieve the third modification by adding a button to my lie detector. Adding a button is helpful because I made it so that you have to press a button before asking a new question, which helps create a new threshold value every single time. Moving on, I was able to achieve my second modification by attaching a LCD display to my lie detector. I achieved this by wiring the LCD display to my Arduino, and programming on Arduino code using the library "#include <LiquidCrystal.h>". Finally I achieved my final milestone by adding in the heart rate monitor. To add the heart rate monitor, I had to use the library "#include <PulseSensorPlayground.h>", and used the total score of the GSR and BPM to detect if a person is lying or not. 
+
+## Challenges
+Challenges I faced when achieving these modifications were the wiring and programming of the heart rate monitor to my project. For example, I remember struggling to attach my heart rate monitor to the Arduino because the wiring was messy, which made the monitor to not be able to read BPM accurately. I was able to overcome this challenge by fixing my wiring so that it wasn't as messy, and used longer jumper wires so that it wouldn't unplug easily. Another challenge I faced was programming the code so that it can take in account the new level of "calmness" of the individual. I overcame this challenge by programming it so that there woyuld be two baselines. Having two baselines is useful so that the lie detector, can ignore noise and accurately determine when a person's GSR or BPM "spikes". 
 # Final Milestone
 
 
