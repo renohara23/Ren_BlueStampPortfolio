@@ -25,7 +25,7 @@ At BlueStamp I decided to create a lie/nervousness detector. This device uses GS
 
 
 
-<img src= "IMG_5542.png" width="650" height="600">
+        <img src= "IMG_5542.png" width="650" height="600">
 
 Lie/Nervousness Detector ([GSR Based Lie Detector Device](https://www.electronicsforu.com/electronics-projects/gsr-based-lie-detector-device))
 
