@@ -44,7 +44,7 @@ Lie/Nervousness Detector
 
 <img src= "IMG_5549.png" width="650" height="600">
 
-LCD Display
+LCD Display ([Arduino](https://docs.arduino.cc/learn/electronics/lcd-displays/))
 
 
 <img src= "IMG_5550.png" width="650" height="600">
