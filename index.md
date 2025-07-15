@@ -27,7 +27,7 @@ At BlueStamp I decided to create a lie/nervousness detector. This device uses GS
 
 <img src= "IMG_5542.png" width="650" height="600">
 
-Lie/Nervousness Detector
+Lie/Nervousness Detector ([GSR Based Lie Detector Device](https://www.electronicsforu.com/electronics-projects/gsr-based-lie-detector-device))
 
 
 
@@ -79,7 +79,6 @@ Challenges I faced when achieving these modifications were the wiring and progra
 For my final milestone, I was able to find a threshold adjusts to individual's different GSR readings. Through my process of completing this milestone, I learned that a boolean function is used to program true or false functions. With that in mind, I used the boolean function function to create a calibration phase, as well as a precalibration phase. The precalibration phase is a vital step to my project because when the GSR readings begins, there are inconsistent values in the beginning because the GSR sensor is stabilizing the value of the person's GSR readings. If there wasn't a precalibration phase, the threshold value to determine if someone is lying or not will not be accurate. What has suprised me so far about the project up to this point is the amount of steps it takes to finish a milestone. Before, I thought the path of completing each milestone was self explanatory and linear, however through my experience of creating the lie/nervousness detector I soon came to realize that it is a non-linear process isn't as straightforward as I thought. 
 ## Challenges
 A challenge I had in completing this task was learning all the new coding language. The reason is because prior to coming to camp, I've never coded before, so understanding the basic coding techniques were hard for me to learn and incorporate in my project. Another challenge I had was the inconsistent readings I had to deal with from the GSR sensor. The reason is because there would be times where I would lie and the sensor would not rise. However, I later learned that GSR is not 100% accurate and that it only rises if someone is stressed or overwhelmed, which is not all the time. 
-
 
 
 # Second Milestone
