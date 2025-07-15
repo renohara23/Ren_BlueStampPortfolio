@@ -133,7 +133,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 # Lie/Nervousness Detector Schematic
 
-<img src= "schematic.png" width="450" height="600">
+<img src= "schematic.png" width="650" height="600">
 
 Lie/Nervousness Detector Schematic
 
