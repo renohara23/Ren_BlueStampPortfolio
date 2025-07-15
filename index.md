@@ -133,9 +133,10 @@ Don't forget to place the link of where to buy each component inside the quotati
 # Lie/Nervousness Detector Schematic
 
 <img src= "schematic.png" width="450" height="600">
-Lie/Nervousness Detector
 
-[electronicsforu.com](https://www.electronicsforu.com/electronics-projects/gsr-based-lie-detector-device)
+Lie/Nervousness Detector Schematic
+
+([electronicsforu.com](https://www.electronicsforu.com/electronics-projects/gsr-based-lie-detector-device))
 
 # Code
 <pre><code class="language-cpp">
