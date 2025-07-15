@@ -42,6 +42,7 @@ At BlueStamp I decided to create a lie/nervousness detector. This device uses GS
 
 <img src= "IMG_5549.png" width="650" height="600">
 
+LCD Display
 
 
 <img src= "IMG_5550.png" width="650" height="600">
