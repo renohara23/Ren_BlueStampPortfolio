@@ -49,7 +49,7 @@ LCD Display
 
 <img src= "IMG_5550.png" width="650" height="600">
 
-PulseSensor
+PulseSensor ([PulseSensor.com](https://pulsesensor.com/))
 
 
 
