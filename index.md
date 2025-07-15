@@ -37,10 +37,16 @@ At BlueStamp I decided to create a lie/nervousness detector. This device uses GS
 
 
 
+
 # Modifications
 
 <img src= "IMG_5549.png" width="650" height="600">
+
+
+
 <img src= "IMG_5550.png" width="650" height="600">
+
+PulseSensor
 
 
 
