@@ -27,6 +27,8 @@ At BlueStamp I decided to create a lie/nervousness detector. This device uses GS
 
 <img src= "IMG_5542.png" width="650" height="600">
 
+Lie/Nervousness Detector
+
 
 
 ## Headshot Image
