@@ -24,20 +24,25 @@ At BlueStamp I decided to create a lie/nervousness detector. This device uses GS
 <!--**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**-->
 
 
-![Headstone Image](IMG_5542.png)
+
+<img src= "IMG_5542.png" width="650" height="600">
+
 
 
 ## Headshot Image
-![Headstone Image](RenO.png)
+
+<img src= "RenO.png" width="650" height="600">
 
 
 
 
 
 # Modifications
-![Headstone Image](IMG_5549.png)
 
-![Headstone Image](IMG_5550.png)
+<img src= "IMG_5549.png" width="650" height="600">
+<img src= "IMG_5550.png" width="650" height="600">
+
+
 
 ## Summary
 Before starting my project, modifications I wanted to add to my lie/nervousness detector were attaching a heart rate monitor to accurately determine if someone is lying, adding a display on a screen to say if the person is telling the truth, and changing the code so that it can take in account to different GSR levels when you ask multiple questions. I was able to achieve the third modification by adding a button to my lie detector. Adding a button is helpful because I made it so that you have to press a button before asking a new question, which helps create a new threshold value every single time. Moving on, I was able to achieve my second modification by attaching a LCD display to my lie detector. I achieved this by wiring the LCD display to my Arduino, and programming on Arduino code using the library "#include <LiquidCrystal.h>". Finally I achieved my final milestone by adding in the heart rate monitor. To add the heart rate monitor, I had to use the library "#include <PulseSensorPlayground.h>", and used the total score of the GSR and BPM to detect if a person is lying or not. 
@@ -284,8 +289,7 @@ void loop() {
 <iframe width="560" height="315" src="https://www.youtube.com/embed/86wupSU3Qbg?si=v7565gstihsWf3Gy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-
-![Headstone Image](IMG_5553.png)
+<img src= "IMG_5553.png" width="650" height="600">
 
 
 
