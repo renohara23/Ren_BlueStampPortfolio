@@ -312,9 +312,9 @@ A challenge I had in completeing my starter project was the soldering. Before co
 
 <img src= "schematics-_WNfuLqZO8t.png" width="650" height="600">
 
-Retro Arcade Console
+Retro Arcade Console Schematic
 
-[Hackster.io](https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95fz0)
+([Hackster.io](https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95fz0))
 
 
 
