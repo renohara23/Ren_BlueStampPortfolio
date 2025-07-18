@@ -139,17 +139,18 @@ Lie/Nervousness Detector Schematic
 
 ([electronicsforu.com](https://www.electronicsforu.com/electronics-projects/gsr-based-lie-detector-device))
 
-# Code
-<pre><code class="language-cpp">
-#include &lt;LiquidCrystal.h&gt;
-#include &lt;PulseSensorPlayground.h&gt;
+#include <LiquidCrystal.h>
+#include <PulseSensorPlayground.h>
+
 const int BUZZER = 5;
 const int GSR = A2;
 const int LED = 4;
 const int BUTTON = 2;
 const int PulsePin = A0;
+
 PulseSensorPlayground pulseSensor;
 LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
+
 int sensorValue = 0;
 int bpm = 0;
 float ema = 0;
@@ -164,10 +165,10 @@ long sumBPM = 0;
 int count = 0;
 float alphaFast = 0.1;
 float alphaSlow = 0.05;
-int sensitivity = 1;
+int sensitivity = 1; 
 unsigned long buttonPressTime = 0;
-const unsigned long preCalDelay = 15000;
-const unsigned long calDuration = 20000;
+const unsigned long preCalDelay = 0; 
+const unsigned long calDuration = 15000;
 
 void setup() {
   Serial.begin(9600);
@@ -191,32 +192,59 @@ void loop() {
 
   if (!baselineSet && !collecting && digitalRead(BUTTON) == LOW) {
     collecting = true;
-    buttonPressTime = millis();
+
+    unsigned long countdownStart = millis();
+    while (millis() - countdownStart < 15000UL) {        
+      sensorValue = analogRead(GSR);                     
+
+      int timeLeft = 15 - (millis() - countdownStart) / 1000;
+
+      lcd.setCursor(0, 0);
+      lcd.print("Starting in...   ");                    
+
+      lcd.setCursor(0, 1);
+      lcd.print("Time: ");
+      if (timeLeft < 10) lcd.print(' ');                 
+      lcd.print(timeLeft);
+      lcd.print("s   ");                                
+
+      delay(200);
+    }
     lcd.clear();
-    lcd.print("Wait 15 sec...");
-    delay(500);
-  }
-  if (collecting && !calibrating && millis() - buttonPressTime < preCalDelay) {
-    delay(10);
-    return;
-  }
-  if (collecting && !calibrating && millis() - buttonPressTime >= preCalDelay) {
+
+  
     calibrating = true;
+    collecting = true;
     sumGSR = 0;
     sumBPM = 0;
     count = 0;
     buttonPressTime = millis();
-    lcd.clear();
-    lcd.print("Calibrating...");
-    delay(10);
   }
+
   if (calibrating && millis() - buttonPressTime < calDuration) {
+    unsigned long elapsed = millis() - buttonPressTime;
+    int timeLeft = 15 - (elapsed / 1000);
+
+    sensorValue = analogRead(GSR);
+    bpm = pulseSensor.getBeatsPerMinute();
+
     sumGSR += sensorValue;
     sumBPM += bpm;
     count++;
+
+    lcd.setCursor(0, 0);
+    lcd.print("Calibrating...  ");
+
+    lcd.setCursor(0, 1);
+    lcd.print("Time Left: ");
+    if (timeLeft < 10) lcd.print(" ");
+    lcd.print(timeLeft);
+    lcd.print("s   ");
+
     delay(10);
     return;
   }
+
   if (calibrating && millis() - buttonPressTime >= calDuration) {
     float avgGSR = sumGSR / (float)count;
     baselineEMA = avgGSR;
@@ -236,6 +264,7 @@ void loop() {
     delay(2000);
     lcd.clear();
   }
+
   if (baselineSet) {
     ema = alphaFast * sensorValue + (1 - alphaFast) * ema;
     baselineEMA = alphaSlow * ema + (1 - alphaSlow) * baselineEMA;
@@ -259,7 +288,7 @@ void loop() {
 
     float gsrScore = (ema - baselineEMA) / sensitivity;
     float bpmScore = (bpm - baselineBPM) / sensitivity;
-    float totalScore = max(0, gsrScore) + max(0, bpmScore);  // Ignore negatives
+    float totalScore = max(0, gsrScore) + max(0, bpmScore); 
     bool lieDetected = totalScore > 2.0;
 
     lcd.setCursor(0, 0);
@@ -291,6 +320,7 @@ void loop() {
     delay(10);
   }
 }
+
 </code></pre>
 
 
