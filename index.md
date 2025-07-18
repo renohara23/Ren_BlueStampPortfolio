@@ -34,7 +34,7 @@ Lie/Nervousness Detector ([GSR Based Lie Detector Device](https://www.electronic
 
 ## Headshot Image
 
-<img src= "RenO.png" width="450" height="450">
+<img src= "RenO.png" width="40%">
 
 
 
