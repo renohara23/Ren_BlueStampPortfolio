@@ -1,5 +1,6 @@
 # Lie/Nervousness Detector
-At BlueStamp I decided to create a lie/nervousness detector. This device uses GSR (galvanic skin response) values, which measures the electrical skin conductivity of an individual's skin. Additionally, it uses a heartratemonitor that meausres beats per minute, to see if there is a spike in an individual's emotions. The lie/nervousness detector identifies the truth by creating a threshold by combining the total score of the "spikes" in GSR and BPM. Using the baseline, if an individal's GSR value goes bove the threshold then it likely means that they are lying. 
+At BlueStamp, I decided to create a lie/nervousness detector. This device uses GSR (galvanic skin response) values, which measure the electrical skin conductivity of an individual's skin. Additionally, it uses a heart rate monitor that measures beats per minute to see if there is a spike in an individual's emotions. The lie/nervousness detector identifies the truth by creating a threshold by making a total score of the "spikes" in GSR and BPM. Using the baseline, if an individual's GSR value goes above the threshold, then it likely means that they are lying. 
+
 
 
 <!--Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! For my project, I decided to make a lie/nervousness detector. The lie/nervousness detector uses -->
@@ -54,10 +55,12 @@ PulseSensor ([PulseSensor.com](https://pulsesensor.com/))
 
 
 ## Summary
-Before starting my project, modifications I wanted to add to my lie/nervousness detector were attaching a heart rate monitor to accurately determine if someone is lying, adding a display on a screen to say if the person is telling the truth, and changing the code so that it can take in account to different GSR levels when you ask multiple questions. I was able to achieve the third modification by adding a button to my lie detector. Adding a button is helpful because I made it so that you have to press a button before asking a new question, which helps create a new threshold value every single time. Moving on, I was able to achieve my second modification by attaching a LCD display to my lie detector. I achieved this by wiring the LCD display to my Arduino, and programming on Arduino code using the library "#include <LiquidCrystal.h>". Finally I achieved my final milestone by adding in the heart rate monitor. To add the heart rate monitor, I had to use the library "#include <PulseSensorPlayground.h>", and used the total score of the GSR and BPM to detect if a person is lying or not. 
+Before starting my project, modifications I wanted to add to my lie/nervousness detector were attaching a heart rate monitor to accurately determine if someone is lying, adding a display on a screen to say if the person is telling the truth, and modifying the code so that it takes in account for different GSR levels when you ask multiple questions. I  achieved my third modification by attaching a button to my lie detector. Adding a button is helpful because being able to press a button before asking a new question helps create a new threshold value every single time. This is helpful because it takes into account the different "calm" levels in either the GSR or BPM. Moving on, I achieved my second modification by linking an LCD to my lie detector. I was able to achieve this by wiring the LCD to my Arduino and programming Arduino code using the library "#include < LiquidCrystal>". Having an LCD improves my lie/nervousness detector because it helps the user to easily recognize if they are lying or not. Finally, I achieved my final milestone by adding a heart rate monitor. Utilizing the heart rate monitor required me to use the library "#include <PulseSensorPlayground.h>". Putting a heart rate monitor enhances my project, since I'm able to use a total score of the GSR and BPM values to accurately detect the truth.
 
 ## Challenges
-Challenges I faced when achieving these modifications were the wiring and programming of the heart rate monitor to my project. For example, I remember struggling to attach my heart rate monitor to the Arduino because the wiring was messy, which made the monitor to not be able to read BPM accurately. I was able to overcome this challenge by fixing my wiring so that it wasn't as messy, and used longer jumper wires so that it wouldn't unplug easily. Another challenge I faced was programming the code so that it can take in account the new level of "calmness" of the individual. I overcame this challenge by programming it so that there woyuld be two baselines. Having two baselines is useful so that the lie detector, can ignore noise and accurately determine when a person's GSR or BPM "spikes". 
+The challenges I faced when achieving these modifications were the wiring and programming of the heart rate monitor to my project. For example, I remember struggling to attach my heart rate monitor to the Arduino because the wiring was messy, which made the monitor unable to read BPM accurately. I was able to overcome this challenge by fixing my wiring so that it wasn't as messy, and using longer jumper wires so that it wouldn't unplug easily. Another challenge I faced was programming the code so that it could take into account the new level of "calmness" of the individual. I overcame this challenge by programming it so that there would be two baselines. Having two baselines is useful so that the lie detector can ignore noise and accurately determine when a person's GSR or BPM "spikes". 
+
+
 # Final Milestone
 
 
@@ -76,9 +79,13 @@ Challenges I faced when achieving these modifications were the wiring and progra
 - What you hope to learn in the future after everything you've learned at BSE-->
 
 ## Summary
-For my final milestone, I was able to find a threshold adjusts to individual's different GSR readings. Through my process of completing this milestone, I learned that a boolean function is used to program true or false functions. With that in mind, I used the boolean function function to create a calibration phase, as well as a precalibration phase. The precalibration phase is a vital step to my project because when the GSR readings begins, there are inconsistent values in the beginning because the GSR sensor is stabilizing the value of the person's GSR readings. If there wasn't a precalibration phase, the threshold value to determine if someone is lying or not will not be accurate. What has suprised me so far about the project up to this point is the amount of steps it takes to finish a milestone. Before, I thought the path of completing each milestone was self explanatory and linear, however through my experience of creating the lie/nervousness detector I soon came to realize that it is a non-linear process isn't as straightforward as I thought. 
+For my final milestone, I was able to find a threshold that adjusts to an individual's different GSR readings. Through my process of completing this milestone, I learned that a boolean function is used to program true or false functions. With that in mind, I used the boolean function to create a calibration phase, as well as a precalibration phase. The precalibration phase is a vital step to my project because when the GSR readings begin, there are inconsistent values in the beginning because the GSR sensor is stabilizing the value of the person's GSR readings. If there wasn't a precalibration phase, the threshold value to determine if someone is lying or not will not be accurate. What has surprised me so far about the project up to this point is the amount of steps it takes to finish a milestone. Before, I thought the path of completing each milestone was self explanatory and linear, however through my experience of creating the lie/nervousness detector I soon came to realize that it is a non-linear process and isn't as straightforward as I thought. 
+
 ## Challenges
-A challenge I had in completing this task was learning all the new coding language. The reason is because prior to coming to camp, I've never coded before, so understanding the basic coding techniques were hard for me to learn and incorporate in my project. Another challenge I had was the inconsistent readings I had to deal with from the GSR sensor. The reason is because there would be times where I would lie and the sensor would not rise. However, I later learned that GSR is not 100% accurate and that it only rises if someone is stressed or overwhelmed, which is not all the time. 
+A challenge I had in completing this task was learning all the new coding languages. The reason is that, before coming to camp, I had never coded before, so understanding basic coding techniques was hard for me to learn and incorporate into my project. Another challenge I faced was the inconsistent readings from the GSR sensor. The reason is that there would be times when I would lie, and the sensor would not rise. However, I later learned that GSR is not 100% accurate and that it only rises when someone is stressed or overwhelmed, which is not always the case. 
+
+
+
 
 
 # Second Milestone
@@ -90,10 +97,10 @@ A challenge I had in completing this task was learning all the new coding langua
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pRRHKJGRSHw?si=lcP-HiqLfxEEzcii" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Summary
-For milestone two, I was able to program a loop that will calculate the sensor value from the GSR sensor. The loop makes the Arduino find the sum of 500 readings from the GSR sensor. After the loop is finished it divides the sum of the sensor values by 500 to find the avergae. Finding the average of the sensor value is important in contributing to my final goal because it helps determine if an individual is lying or not. Using single values from the GSR sensor is not a viable option compared to the average because it is common for people's GSR to fluctuate, due to factors such as nervousness or environment. What has been surprising about the project so far is how important it is to be creative and to not follow the instructions step by step. A previous challenge I faced that I overcame was that orginally I used the sensor value from the GSR sensor to determine if someone was lying. However, I learned that I had to taken in account of aspects like nervousness and humidity to accurately determine if a person is lying or not. What needs to be completeed before my final milestone is to use my classmates GSR value to help determine the correct threshold to use. The threshold value is important to my final goal because if the average of the GSR sensor exceeds the threshold, it will help detect if a person is lying. 
+For milestone two, I was able to program a loop that calculates the sensor value from the GSR sensor. The loop makes the Arduino find the sum of 500 readings from the GSR sensor. After the loop is finished, it divides the sum of the sensor values by 500 to find the average. Finding the average of the sensor value is important in contributing to my final goal because it helps determine if an individual is lying or not. Using single values from the GSR sensor is not a viable option compared to the average because it is common for people's GSR to fluctuate, due to factors such as nervousness or environment. What has been surprising about the project so far is how important it is to be creative and not follow the instructions step by step. A previous challenge I faced and overcame was that originally, I used the sensor value from the GSR sensor to determine if someone was lying. However, I learned that I had to take into account aspects like nervousness and humidity to accurately determine if a person is lying or not. What needs to be completed before my final milestone is to use my classmates' GSR values to help determine the correct threshold to use. The threshold value is important to my final goal because if the average of the GSR sensor exceeds the threshold, it will help detect if a person is lying. 
 
 ## Challenges
-A challenge I had in completing milestone two was the coding involved to figure the correct reading. In the beginnning, I had a difficult time understanding how to take in the readings of averages, since I've never coded on Arduino before. However through constant trial and error and help from my instrcutors I was able to figure out and program a function on Arduino that takes the average of 500 readings to correctly determine if someone is lying or not. Other challenges I faced when completing miletone two was wiring issues. For instance, I had an entire day where I was unsure why the GSR sensor wasn't reading the GSR values properly. However, when taking a proper look, I noticed that the components were wired incorrectly because I didn't color code the wires. Which is why I immediately color coded the wires, to make sure wiring issues wouldn't become a problem I would have to face in the future.  
+A challenge I had in completing milestone two was the coding involved to figure out the correct reading. In the beginning, I had a difficult time understanding how to take in the readings of averages, since I'd never coded on Arduino before. However, through constant trial and error and help from my instructors, I was able to figure out and program a function on Arduino that takes the average of 500 readings to correctly determine if someone is lying or not. Other challenges I faced when completing milestone two were wiring issues. For instance, I had an entire day where I was unsure why the GSR sensor wasn't reading the GSR values properly. However, when taking a proper look, I noticed that the components were wired incorrectly because I didn't color-code the wires. Which is why I immediately color-coded the wires, to make sure wiring issues wouldn't become a problem I would have to face in the future.  
 
 
 <!--For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
@@ -108,10 +115,10 @@ A challenge I had in completing milestone two was the coding involved to figure 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4ujochRYdPQ?si=bf9kOd2_Q00TkyAy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Summary
-My first milestone for my lie/nervousness detector was to program on Arduino IDE to make my GSR sensor work. I was able to achieve this goal by making my GSR sensor as a constant integer to pin labeled as A2. Then I made an integer called sensorValue, which stores the analog readings from the GSR sensor. Additionally, I coded it so that that the buzzer would be coded as an input into pin #13. I made it so that it would beep when it went over the threshold value that I set up. However, this isn't a viable option because I realized that GSR values are different for each person, and that it's not all the same.
+My first milestone for my lie/nervousness detector was to program on Arduino IDE to make my GSR sensor work. I was able to achieve this goal by making my GSR sensor a constant integer to the pin labeled as A2. Then I made an integer called sensorValue, which stores the analog readings from the GSR sensor. Additionally, I coded it so that the buzzer would be coded as an input into pin #13. I made it so that it would beep when it went over the threshold value that I set up. However, this isn't a viable option because I realized that GSR values are different for each person, and that they're not all the same.
 
 ## Challenges
-Some challenges I had with completing my first milestone was wiring the GSR sensor and the buzzer to the Arduino. The reason is because there was a schematic picture on wiring the GSR sensor to the Arduino, but I had a difficult time interpreting it since I've never done wiring before coming to BlueStamp. Through the help of Youtiube videos and the instructors, I was finally able to interpret what the schematic meant, and was able to finish the wiring of my GSR sensor to the Arduino.
+The challenges I had with completing my first milestone were wiring the GSR sensor and the buzzer to the Arduino. The reason is that there was a schematic picture on how to wire the GSR sensor to the Arduino, but I had a difficult time interpreting it since I've never done wiring before coming to BlueStamp. With the help of YouTube videos and the instructors, I was finally able to interpret what the schematic meant and finished the wiring of my GSR sensor to the Arduino.
 
 
 # Bill of Materials
@@ -142,8 +149,11 @@ Lie/Nervousness Detector Schematic
 # Code
 
 ```cpp
+
 #include <LiquidCrystal.h>
 #include <PulseSensorPlayground.h>
+
+
 
 const int BUZZER = 5;
 const int GSR = A2;
@@ -151,14 +161,24 @@ const int LED = 4;
 const int BUTTON = 2;
 const int PulsePin = A0;
 
+
+
 PulseSensorPlayground pulseSensor;
+
+
+
 LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
+
+
 
 int sensorValue = 0;
 int bpm = 0;
 float ema = 0;
 float baselineEMA = 0;
 int baselineBPM = 0;
+
+
+
 bool baselineSet = false;
 bool collecting = false;
 bool calibrating = false;
@@ -166,162 +186,171 @@ bool questionAsked = false;
 long sumGSR = 0;
 long sumBPM = 0;
 int count = 0;
+
+
+
 float alphaFast = 0.1;
 float alphaSlow = 0.05;
-int sensitivity = 1; 
+int sensitivity = 1;  // Applies to both GSR and BPM
 unsigned long buttonPressTime = 0;
-const unsigned long preCalDelay = 0; 
-const unsigned long calDuration = 15000;
+const unsigned long preCalDelay = 15000;
+const unsigned long calDuration = 20000;
+
 
 void setup() {
-  Serial.begin(9600);
-  pinMode(BUZZER, OUTPUT);
-  pinMode(LED, OUTPUT);
-  pinMode(BUTTON, INPUT_PULLUP);
-  digitalWrite(BUZZER, LOW);
-  digitalWrite(LED, LOW);
+ Serial.begin(9600);
+ pinMode(BUZZER, OUTPUT);
+ pinMode(LED, OUTPUT);
+ pinMode(BUTTON, INPUT_PULLUP);
+ digitalWrite(BUZZER, LOW);
+ digitalWrite(LED, LOW);
 
-  lcd.begin(16, 2);
-  lcd.print("Press to Calib");
 
-  pulseSensor.analogInput(PulsePin);
-  pulseSensor.setThreshold(550);
-  pulseSensor.begin();
+ lcd.begin(16, 2);
+ lcd.print("Press to Calib");
+
+
+ pulseSensor.analogInput(PulsePin);
+ pulseSensor.setThreshold(550);
+ pulseSensor.begin();
 }
 
+
 void loop() {
-  sensorValue = analogRead(GSR);
-  bpm = pulseSensor.getBeatsPerMinute();
+ sensorValue = analogRead(GSR);
+ bpm = pulseSensor.getBeatsPerMinute();
 
-  if (!baselineSet && !collecting && digitalRead(BUTTON) == LOW) {
-    collecting = true;
 
-    unsigned long countdownStart = millis();
-    while (millis() - countdownStart < 15000UL) {        
-      sensorValue = analogRead(GSR);                     
+ 
+ if (!baselineSet && !collecting && digitalRead(BUTTON) == LOW) {
+   collecting = true;
+   buttonPressTime = millis();
+   lcd.clear();
+   lcd.print("Wait 15 sec...");
+   delay(500);
+ }
 
-      int timeLeft = 15 - (millis() - countdownStart) / 1000;
 
-      lcd.setCursor(0, 0);
-      lcd.print("Starting in...   ");                    
+ 
+ if (collecting && !calibrating && millis() - buttonPressTime < preCalDelay) {
+   delay(10);
+   return;
+ }
 
-      lcd.setCursor(0, 1);
-      lcd.print("Time: ");
-      if (timeLeft < 10) lcd.print(' ');                 
-      lcd.print(timeLeft);
-      lcd.print("s   ");                                
 
-      delay(200);
-    }
-    lcd.clear();
+ 
+ if (collecting && !calibrating && millis() - buttonPressTime >= preCalDelay) {
+   calibrating = true;
+   sumGSR = 0;
+   sumBPM = 0;
+   count = 0;
+   buttonPressTime = millis();
+   lcd.clear();
+   lcd.print("Calibrating...");
+   delay(10);
+ }
 
-  
-    calibrating = true;
-    collecting = true;
-    sumGSR = 0;
-    sumBPM = 0;
-    count = 0;
-    buttonPressTime = millis();
-  }
 
-  if (calibrating && millis() - buttonPressTime < calDuration) {
-    unsigned long elapsed = millis() - buttonPressTime;
-    int timeLeft = 15 - (elapsed / 1000);
+ 
+ if (calibrating && millis() - buttonPressTime < calDuration) {
+   sumGSR += sensorValue;
+   sumBPM += bpm;
+   count++;
+   delay(10);
+   return;
+ }
 
-    sensorValue = analogRead(GSR);
-    bpm = pulseSensor.getBeatsPerMinute();
 
-    sumGSR += sensorValue;
-    sumBPM += bpm;
-    count++;
+ 
+ if (calibrating && millis() - buttonPressTime >= calDuration) {
+   float avgGSR = sumGSR / (float)count;
+   baselineEMA = avgGSR;
+   ema = avgGSR;
+   baselineBPM = sumBPM / count;
 
-    lcd.setCursor(0, 0);
-    lcd.print("Calibrating...  ");
 
-    lcd.setCursor(0, 1);
-    lcd.print("Time Left: ");
-    if (timeLeft < 10) lcd.print(" ");
-    lcd.print(timeLeft);
-    lcd.print("s   ");
+   baselineSet = true;
+   collecting = false;
+   calibrating = false;
 
-    delay(10);
-    return;
-  }
 
-  if (calibrating && millis() - buttonPressTime >= calDuration) {
-    float avgGSR = sumGSR / (float)count;
-    baselineEMA = avgGSR;
-    ema = avgGSR;
-    baselineBPM = sumBPM / count;
+   lcd.clear();
+   lcd.setCursor(0, 0);
+   lcd.print("Baseline Set");
+   lcd.setCursor(0, 1);
+   lcd.print("Avg GSR: ");
+   lcd.print((int)avgGSR);
+   delay(2000);
+   lcd.clear();
+ }
 
-    baselineSet = true;
-    collecting = false;
-    calibrating = false;
 
-    lcd.clear();
-    lcd.setCursor(0, 0);
-    lcd.print("Baseline Set");
-    lcd.setCursor(0, 1);
-    lcd.print("Avg GSR: ");
-    lcd.print((int)avgGSR);
-    delay(2000);
-    lcd.clear();
-  }
+ 
+ if (baselineSet) {
+   
+   ema = alphaFast * sensorValue + (1 - alphaFast) * ema;
+   baselineEMA = alphaSlow * ema + (1 - alphaSlow) * baselineEMA;
 
-  if (baselineSet) {
-    ema = alphaFast * sensorValue + (1 - alphaFast) * ema;
-    baselineEMA = alphaSlow * ema + (1 - alphaSlow) * baselineEMA;
 
-    if (digitalRead(BUTTON) == LOW && !questionAsked) {
-      baselineEMA = 0.9 * baselineEMA + 0.1 * ema;
-      baselineBPM = 0.9 * baselineBPM + 0.1 * bpm;
-      questionAsked = true;
+   
+   if (digitalRead(BUTTON) == LOW && !questionAsked) {
+     baselineEMA = 0.9 * baselineEMA + 0.1 * ema;
+     baselineBPM = 0.9 * baselineBPM + 0.1 * bpm;
+     questionAsked = true;
 
-      lcd.clear();
-      lcd.setCursor(0, 0);
-      lcd.print("New Q Incoming");
-      lcd.setCursor(0, 1);
-      lcd.print("Recalibrating...");
-      delay(1500);
-      lcd.clear();
-    }
-    if (digitalRead(BUTTON) == HIGH) {
-      questionAsked = false;
-    }
 
-    float gsrScore = (ema - baselineEMA) / sensitivity;
-    float bpmScore = (bpm - baselineBPM) / sensitivity;
-    float totalScore = max(0, gsrScore) + max(0, bpmScore); 
-    bool lieDetected = totalScore > 2.0;
+     lcd.clear();
+     lcd.setCursor(0, 0);
+     lcd.print("New Q Incoming");
+     lcd.setCursor(0, 1);
+     lcd.print("Recalibrating...");
+     delay(1500);
+     lcd.clear();
+   }
+   if (digitalRead(BUTTON) == HIGH) {
+     questionAsked = false;
+   }
 
-    lcd.setCursor(0, 0);
-    lcd.print("GSR:");
-    lcd.print((int)ema);
-    lcd.print(" HR:");
-    lcd.print(bpm);
-    lcd.print(" ");
 
-    lcd.setCursor(0, 1);
-    lcd.print("Score:");
-    lcd.print(totalScore, 1);
-    if (lieDetected) {
-      lcd.print(" Lie  ");
-      digitalWrite(BUZZER, HIGH);
-      digitalWrite(LED, HIGH);
-    } else {
-      lcd.print("     ");
-      digitalWrite(BUZZER, LOW);
-      digitalWrite(LED, LOW);
-    }
+   
+   float gsrScore = (ema - baselineEMA) / sensitivity;
+   float bpmScore = (bpm - baselineBPM) / sensitivity;
+   float totalScore = max(0, gsrScore) + max(0, bpmScore);  
+   bool lieDetected = totalScore > 2.0;
 
-    Serial.print("EMA:");
-    Serial.print(ema);
-    Serial.print(" BPM:");
-    Serial.print(bpm);
-    Serial.print(" Score:");
-    Serial.println(totalScore);
-    delay(10);
-  }
+
+   // === Output ===
+   lcd.setCursor(0, 0);
+   lcd.print("GSR:");
+   lcd.print((int)ema);
+   lcd.print(" HR:");
+   lcd.print(bpm);
+   lcd.print(" ");
+
+
+   lcd.setCursor(0, 1);
+   lcd.print("Score:");
+   lcd.print(totalScore, 1);
+   if (lieDetected) {
+     lcd.print(" Lie ");
+     digitalWrite(BUZZER, HIGH);
+     digitalWrite(LED, HIGH);
+   } else {
+     lcd.print("     ");
+     digitalWrite(BUZZER, LOW);
+     digitalWrite(LED, LOW);
+   }
+
+
+   
+   Serial.print("EMA:");
+   Serial.print(ema);
+   Serial.print(" BPM:");
+   Serial.print(bpm);
+   Serial.print(" Score:");
+   Serial.println(totalScore);
+   delay(10);
+ }
 }
 
 ```
@@ -337,9 +366,9 @@ Retro Arcade Console
 
 
 ## Summary
-For my starter project, I chose to create the retro arcade console. I wanted to create the retro arcade console because I love playing video games, and I thought it would be intriguing to create and assemble one on my own. The retro arcade console has many types of games such as snake and tetris. Additionally, the console is able to be powered through a plug or batteries. Creating the retro arcade console took me around two days to make. Once I completed the project and saw that it was working, I felt very proud of myself because before entering BlueStamp I didn't think I would be able to manufacture the console properly, as it looked very complicated to do.
+For my starter project, I created a retro arcade console. I wanted to create the retro arcade console because I love playing video games, and I thought it would be intriguing to create and assemble one on my own. The retro arcade console is able to play games such as Snake and Tetris. Additionally, the console can be used by powering it through a plug or batteries. The retro arcade console took me two days to create. Once I completed the project, I was proud of myself because before entering BlueStamp, I didn't think I would be able to manufacture the console properly, as it looked complicated to do.
 ## Challenges
-A challenge I had in completeing my starter project was the soldering. Before coming to BlueStamp I've never done soldering, so initially I had a difficult time soldering the components together. For example, I would either over solder or undersolder the wires to the circuit board, short circuiting the pieces, making the retro arcade console unusable. Also, I remember on the first day I soldered the helping hands together. I was able to overcome this challenge by getting advice from my instructors as well as from Youtube. These resources told me that undersoldering is better than oversoldering. Once I understood that, I had a easier time soldering the pieces together to create the retro arcade console. Another challenge I had in completing my starter project was understanding the manuel. Since I remember there were many times during this process where I wasn't able to comprehend what the instructions were telling me to do. I overcame this challenege by asking my peers and my instructors, who helped simplify the language to me. 
+A challenge I had in completing my starter project was the soldering. Before coming to BlueStamp, I had never done soldering, so initially I had a difficult time soldering the components together. For example, I would either over-solder or undersolder the wires to the circuit board, short-circuiting the pieces, making the retro arcade console unusable. Also, I remember on the first day I soldered the helping hands together. I was able to overcome this challenge by getting advice from my instructors as well as from YouTube. These resources told me that undersoldering is better than oversoldering. Once I understood that, I had an easier time soldering the pieces together to create the retro arcade console. Another challenge I had in completing my starter project was understanding the manual. Since I remember, there were many times during this process when I wasn't able to comprehend what the instructions were telling me to do. I overcame this challenge by asking my peers and my instructors, who helped simplify the language for me. 
 
 # Starter Project Schematic
 
