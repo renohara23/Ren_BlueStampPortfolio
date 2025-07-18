@@ -43,12 +43,12 @@ Lie/Nervousness Detector ([GSR Based Lie Detector Device](https://www.electronic
 
 # Modifications
 
-<img src= "IMG_5549.png" width="450" height="450">
+<img src= "IMG_5549.png" width="40%">
 
 LCD Display ([Arduino](https://docs.arduino.cc/learn/electronics/lcd-displays/))
 
 
-<img src= "IMG_5550.png" width="450" height="450">
+<img src= "IMG_5550.png" width="40%">
 
 PulseSensor ([PulseSensor.com](https://pulsesensor.com/))
 
@@ -140,7 +140,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 # Lie/Nervousness Detector Schematic
 
-<img src= "schematic.png" width="450" height="450">
+<img src= "schematic.png" width="40%">
 
 Lie/Nervousness Detector Schematic
 
@@ -360,7 +360,7 @@ void loop() {
 <iframe width="560" height="315" src="https://www.youtube.com/embed/86wupSU3Qbg?si=v7565gstihsWf3Gy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-<img src= "IMG_5553.png" width="450" height="450">
+<img src= "IMG_5553.png" width="40%">
 
 Retro Arcade Console
 
@@ -374,7 +374,7 @@ A challenge I had in completing my starter project was the soldering. Before com
 
 <!--Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
 
-<img src= "schematics-_WNfuLqZO8t.png" width="450" height="450">
+<img src= "schematics-_WNfuLqZO8t.png" width="40%">
 
 Retro Arcade Console Schematic
 
