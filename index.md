@@ -139,6 +139,8 @@ Lie/Nervousness Detector Schematic
 
 ([electronicsforu.com](https://www.electronicsforu.com/electronics-projects/gsr-based-lie-detector-device))
 
+
+</code></pre>
 #include <LiquidCrystal.h>
 #include <PulseSensorPlayground.h>
 
