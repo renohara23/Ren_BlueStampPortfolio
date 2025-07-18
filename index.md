@@ -374,7 +374,7 @@ A challenge I had in completing my starter project was the soldering. Before com
 
 <!--Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
 
-<img src= "schematics-_WNfuLqZO8t.png" width="40%">
+<img src= "schematics-_WNfuLqZO8t.png" width="80%">
 
 Retro Arcade Console Schematic
 
